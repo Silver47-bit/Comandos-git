@@ -105,7 +105,8 @@ _A list of commonly used Git and Terminal commands_
 
 | Command | Description | Descripción |
 | ------- | ----------- | ----------- |
-| `alias [name=] "command"` | Create a shorcut for a command | Crea un alias para llamar a un comando |
+| `alias [name]="command"` | Create a shorcut for a command | Crea un alias para llamar a un comando |
+|alias arbolito="git log --all --graph --decorate --oneline"| | |
 | `git tag -a [name] -m "message" [id/hashtag]` | Create a tag for a commit | Crea un tag de un commit en especifico |
 | `git show-ref --tags` | List all tags | Lista los tags existentes |
 | `git push --tags` | Push tags to your repository | Envia los tags al repositorio remoto |
